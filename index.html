@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title>Leaky Cauldron|Welcome</title>
+	<meta name="description" content="The best European cuisine restaurant in all of USA">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content=" initial-scale=1.0">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+
+	<!--[if lt IE 9]>
+	<script src="includes/js/html5shiv.js"></script>
+	<script src="includes/js/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="includes/css/styles.css">
+	<!--New Fonts-->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Shadows+Into+Light'>
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.3.0/css/font-awesome.min.css" >
+</head>
+
+<body>
+	<section class="container" id="main" role="main">
+		<!--Header-->
+		<header role="banner">
+			<h1 class="tangerine-font-header">Welcome to Leaky Cauldron<br>Est 2014</h1>
+		</header><!-- end page-header -->
+
+		<!--Navigation Bar-->
+		<div class="navbar navbar-default">
+			<div class="container" id="nav-id">
+				<!--Menu collapses to a button when viewed <768px-->
+				<button type="button"  class="navbar-toggle btn btn-info" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+						NAVIGATION
+				</button>
+
+				<nav class="navbar-collapse collapse float_center ">
+					<ul class="nav navbar-nav child">
+						<li><a class="sliding-middle-out" href="#"><div class="bullet"></div>Home</a></li>
+						<li><a class="sliding-middle-out" href="#menu"><div class="bullet"></div>Menu</a></li>
+						<li><a class="sliding-middle-out" href="#reservation"><div class="bullet"></div>Reservation</a></li>
+						<li><a class="sliding-middle-out" href="#contact"><div class="bullet"></div>Contact Us</a></li>
+						<li><a class="sliding-middle-out" href="#testimonials"><div class="bullet"></div>Testimonials</a></li>
+						<li><a class="sliding-middle-out" href="#myModal1" data-backdrop="static" data-toggle="modal"><div class="bullet"></div>Login</a></li>
+					</ul>
+					<!--Modal for owner authentication : opens upon clicking login-->
+					</nav><!-- end nav-collapse -->
+				<div class="modal fade" id="myModal1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button class="close" data-dismiss="modal">&times;
+								</button>
+								<h4 class="modal-title">Owner Login!</h4>
+							</div><!-- end modal-header -->
+
+							<form class="form-horizontal" action="adminpage.html" method="post" target="_self">
+								<div class="modal-body">
+									<div class="form-group">
+										<label class="col-lg-2 control-label" for="inputUserName">
+											Username
+										</label>
+										<div class="col-lg-10">
+											<input class="form-control" id="inputUserName" placeholder="Enter the username" type="email" required>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label class="col-lg-2 control-label" for="inputPswd">
+											Password
+										</label>
+										<div class="col-lg-10">
+											<input class="form-control" id="inputPswd" placeholder="Enter the password" type="password" required>
+										</div>
+									</div>
+								</div><!-- end modal-body -->
+
+								<div class="modal-footer" style="text-align: center">
+									<button  class="btn btn-success" type="submit">Submit</button>
+									<button class="btn btn-danger" data-dismiss="modal" type="button">Close</button>
+								</div><!-- end modal-footer -->
+							</form>
+						</div><!-- end modal-content -->
+					</div><!-- end modal-dialog -->
+				</div><!--end myModal1-->
+			</div><!-- end container -->
+			</div><!-- end navbar -->
+
+		<!--Carousel slide-->
+		<div class="carousel slide" id="myCarousel" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1"></div><!-- end item -->
+				<div class="item" id="slide2"></div><!-- end item -->
+				<div class="item" id="slide3"></div><!-- end item -->
+			</div><!-- carousel-inner -->
+		</div><!-- end myCarousel -->
+
+		<hr>
+
+
+		<!--Start Menu Tabs-->
+		<div class="row" id="menu">
+				<h3 class="headings">Menu</h3>
+				<div class="tabbable">
+					<ul class="nav nav-tabs nav-justified">
+						<li class="active headings-tabs"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+						<li class="headings-tabs"><a href="#tab2" data-toggle="tab">Section 2</a></li>
+						<li class="headings-tabs"><a href="#tab2" data-toggle="tab">Section 3</a></li>
+					</ul>
+
+				<!--Tab 1 content-->
+				<div class="tab-content">
+					<div class="tab-pane active fade in" id="tab1">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+
+
+				<!--Tab 2 content-->
+
+					<div class="tab-pane fade" id="tab2">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+
+
+				<!--Tab 3 content-->
+
+					<div class="tab-pane fade" id="tab3">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+			</div>
+	</div><!--end of Menu-->
+	<hr>
+
+<!--Start of reservation-->
+	<div class="row" id="reservation">
+		<div class="col-sm-6">
+			<h4 class="headings">Reservation</h4>
+			<p>Book online or give us a call on 020 3375 1515 between 9am-10pm (9.30am and 10pm on weekends). If you wish to speak to our events team in regards to Private Dining, please email events@fifteen.net.  We look forward to seeing you</p>
+			<p>Your feedback is important to us and we would appreciate you sharing you experience. Please email feedback@fifteen.net</p>
+			<p>LUNCH : Mon to Sat 12:00 to 15:00 Sun – 12:00 to 21:00</p>
+			<p>DINNER: Mon to Sat 18:00 to 23:00 Sunday 12:00 to 21:00</p>
+			<p>If you would like to make any changes or amendments to you reservation please email us on reservations@fifteen.net</p>
+
+			<!--Start of the buttons for reservation/change-->
+			<a href="#myModal2" role="button" class="btn btn-warning btn-block " data-backdrop="static" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click to reserve!</a>
+			<br>
+			<a href="#myModal3" role="button" class="btn btn-warning btn-block " data-backdrop="static"  data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click to change reservation!</a>
+
+			<div class="modal fade" id="myModal2">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button class="close" data-dismiss="modal">&times;
+							</button>
+							<h4 class="modal-title">Make a Booking !</h4>
+						</div><!-- end modal-header -->
+
+						<form class="form-horizontal">
+							<div class="modal-body">
+								<div class="form-group">
+									<label class="col-lg-2 control-label">Name</label>
+									<div class="col-lg-10">
+										<input class="form-control" id="inputName2" placeholder="Name" type="text" required>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<span class="col-lg-2 control-label fa fa-mobile-phone fa-2x"></span>
+									<label class="col-lg-2 control-label sr-only ">Mobile Number</label>
+									<div class="col-lg-10">
+										<input class="form-control" id="inputCell2" placeholder="Mobile Number" type="tel" required>
+									</div>
+								</div>
+
+
+								<div class="form-group">
+									<span class="col-lg-2 control-label fa fa-calendar fa-2x"></span>
+									<label class="col-lg-2 control-label sr-only" for="inputDate2">Date</label>
+									<div class="col-lg-10">
+										<input class="form-control" id="inputDate2" type="date" required>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<span class="col-lg-2 control-label fa fa-envelope-o fa-2x" ></span>
+									<label class="sr-only control-label col-lg-2" for="inputEmail2">Email</label>
+									<div class="col-lg-10">
+										<input class="form-control" id="inputEmail2" placeholder="Email" type="email">
+									</div>
+								</div>
+
+								<div class="form-group">
+									<span class="col-lg-2 control-label fa fa-users fa-2x"></span>
+									<label class="col-lg-2 control-label sr-only" for="inputPartySize2">Party Size</label>
+									<div class="col-lg-10">
+										<select class="form-control" id="inputPartySize2">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+										<option value="7">7</option>
+										<option value="8">8</option>
+										<option value="9">9</option>
+										<option value="10">10</option>
+									</select>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<span class="col-lg-2 control-label fa fa-clock-o fa-2x"></span>
+									<label class="col-lg-2 control-label sr-only" for="inputTime2">Time</label>
+									<div class="col-lg-10">
+										<input class="form-control" id="inputTime2" type="time" required>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="col-lg-2 control-label" for="inputMessage2">Special requests</label>
+									<div class="col-lg-10">
+										<textarea class="form-control" id="inputMessage2" placeholder="Message" rows="3"></textarea>
+									</div>
+								</div>
+							</div><!-- end modal-body -->
+
+							<div class="modal-footer" style="text-align: center">
+								<button  class="btn btn-success" type="submit">Reserve!</button>
+								<button class="btn btn-danger" data-dismiss="modal" type="button">Close</button>
+							</div><!-- end modal-footer -->
+						</form>
+					</div><!-- end modal-content -->
+				</div><!-- end modal-dialog -->
+			</div><!-- end myModal -->
+
+			<div class="modal fade" id="myModal3">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button class="close" data-dismiss="modal">&times;
+							</button>
+							<h4 class="modal-title">Change the booking!</h4>
+						</div><!-- end modal-header -->
+
+						<form class="form-horizontal">
+							<div class="modal-body">
+								<div class="form-group">
+									<label class="col-lg-2 control-label">Confirmation Code</label>
+									<div class="col-lg-10">
+										<input class="form-control" id="inputConfirmation3" placeholder="Confirmation Code" type="text" required>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="col-lg-2 control-label fa fa-calendar fa-2x"></label>
+									<label class="col-lg-2 control-label sr-only" for="inputDate3">Date</label>
+									<div class="col-lg-10">
+										<input class="form-control" id="inputDate3" type="date">
+									</div>
+								</div>
+
+
+								<div class="form-group">
+									<span class="col-lg-2 control-label fa fa-envelope-o fa-2x"></span>
+									<label class="col-lg-2 control-label sr-only" for="inputEmail3">Email</label>
+									<div class="col-lg-10">
+										<input class="form-control" id="inputEmail3" placeholder="Email" type="email">
+									</div>
+								</div>
+
+								<div class="form-group">
+									<span class="col-lg-2 control-label fa fa-users fa-2x"></span>
+									<label class="col-lg-2 control-label sr-only" for="inputPartySize3">Party size</label>
+									<div class="col-lg-10">
+										<select class="form-control " id="inputPartySize3">
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="10">10</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<span class="col-lg-2 control-label fa fa-clock-o fa-2x"></span>
+									<label class="col-lg-2 control-label sr-only" for="inputTime3">Time</label>
+									<div class="col-lg-10">
+										<input class="form-control" id="inputTime3" type="time">
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="col-lg-2 control-label">Special requests</label>
+									<div class="col-lg-10">
+										<textarea class="form-control" id="inputMessage3" placeholder="Message" rows="3"></textarea>
+									</div>
+								</div>
+							</div><!-- end modal-body -->
+
+							<div class="modal-footer" style="text-align: center">
+								<button  class="btn btn-success" type="submit">Click to change!</button>
+								<button class="btn btn-danger" data-dismiss="modal" type="button">Close</button>
+								</div><!-- end modal-footer -->
+						</form>
+					</div><!-- end modal-content -->
+				</div><!-- end modal-dialog -->
+			</div>
+		</div>
+
+		<div class="col-sm-6">
+			<h4 class="headings" id="testimonials">Testimonials</h4>
+			<div class="list-group">
+				<div class="list-group-item">
+					<h4 class="list-group-item-heading">Kale</h4>
+					<p class="list-group-item-text">Kale or borecole is a vegetable with green or purple leaves, in which the central leaves do not form a head.</p>
+				</div>
+				<div class="list-group-item">
+					<h4 class="list-group-item-heading">Carrots</h4>
+					<p class="list-group-item-text">The carrot is a root vegetable, usually orange in colour, though purple, red, white, and yellow varieties exist. It has a crisp texture when fresh.</p>
+				</div>
+				<div class="list-group-item">
+					<h4 class="list-group-item-heading">Steel-cut oats</h4>
+					<p class="list-group-item-text">Steel-cut oats are whole grain groats which have been cut into pieces. They are commonly used in Scotland and Ireland to make porridge.</p>
+				</div>
+				<div class="list-group-item">
+					<h4 class="list-group-item-heading">Kale</h4>
+					<p class="list-group-item-text">Kale or borecole is a vegetable with green or purple leaves, in which the central leaves do not form a head.</p>
+				</div>
+			</div><!-- list-group -->
+		</div><!-- end col-sm-6 -->
+	</div>
+
+	<hr>
+
+
+	<div class="row">
+		<div class="col-sm-6" id="location">
+			<h5 class="headings"><span class="glyphicon glyphicon-map-marker"></span> Our Location</h5>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10760.125729383815!2d-122.3308165125702!3d47.60607848396005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x70751ca02bdc0d0f!2sFrye+Art+Museum!5e0!3m2!1sen!2sus!4v1437344849329" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+
+		<!--add the contact US here-->
+		<div class="col-sm-6" id="contact">
+			<h5 class="headings">Contact Us</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+	</div><!-- end row -->
+</section><!-- end container -->
+
+<footer>
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				<h6>Copyright &copy; 2014 Aishwarya Umapathy</h6>
+			</div><!-- end col-sm-2 -->
+
+
+			<div class="col-sm-3">
+				<h4>Navigation</h4>
+				<ul class="unstyled">
+					<li><a href="#">Home</a></li>
+					<li><a href="#menu">Menu</a></li>
+					<li><a href="#reservation">Reservation</a></li>
+					<li><a href="#contact">Contact Us</a></li>
+					<li><a href="#myModal1">login</a></li>
+				</ul>
+			</div><!-- end col-sm-2 -->
+
+			<div class="col-sm-3">
+				<h4>Follow Us</h4>
+				<ul class="unstyled">
+					<li><a href="#"><span class="fa fa-twitter"></span> Twitter</a></li>
+					<li><a href="#"><span class="fa fa-facebook"></span> Facebook</a></li>
+					<li><a href="#"><span class="fa fa-google-plus"></span> Google Plus</a></li>
+				</ul>
+			</div><!-- end col-sm-2 -->
+
+			<div class="col-sm-3">
+				<h5>Coded with <span class="glyphicon glyphicon-heart"></span> by Aish</h5>
+			</div><!-- end col-sm-2 -->
+		</div><!-- end row -->
+	</section><!-- end container -->
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="bootstrap/js/jquery-1.11.3.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
+
